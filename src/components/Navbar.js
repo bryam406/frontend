@@ -4,27 +4,27 @@ import { Link } from 'react-router-dom'; // Para manejar rutas en React
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
-        <Link className="navbar-brand" to="/">Mi Aplicación</Link>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link className="nav-link active" to="/">Home</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/about">Acerca de</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contacto</Link>
-            </li>
+      <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+          <div class="col-md-3 mb-2 mb-md-0">
+            <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+              <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"></svg>
+            </a>
+          </div>
+          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+            <li><a href="#" class="nav-link px-2">Features</a></li>
+            <li><a href="#" class="nav-link px-2">Pricing</a></li>
+            <li><a href="#" class="nav-link px-2">FAQs</a></li>
+            <li><a href="#" class="nav-link px-2">About</a></li>
           </ul>
-        </div>
+
+          <div class="col-md-3 text-end">
+            <button type="button" class="btn btn-outline-primary me-2">Login</button>
+            <button type="button" class="btn btn-primary">Sign-up</button>
+          </div>
+        </header>
       </div>
-    </nav>
   );
 }
 
