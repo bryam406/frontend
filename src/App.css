@@ -46,3 +46,13 @@
   font-size: 5vh;
 }
 
+.cuadro {
+  background: rgb(0 0 0 / 68%);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block; /* Se ajusta al contenido */
+  max-width: 80%; /* Evita que sea demasiado grande */
+}
+
+

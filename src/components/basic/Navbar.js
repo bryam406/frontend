@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; 
-import icon from '../assets/iconos/icono.png';  // Otra imagen opcional
+import icon from '../../assets/iconos/icono.png';  // Otra imagen opcional
 
 
 
