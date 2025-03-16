@@ -7,7 +7,7 @@ import icon from '../assets/iconos/icono.png';  // Otra imagen opcional
 function Navbar() {
   return (
     <div className="container">
-      <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 ">
         <div className="col-md-3 mb-2 mb-md-0">
           <a href="/" className="d-inline-flex link-body-emphasis text-decoration-none">
             <img src={icon} alt="Logo" width="80" height="auto" />
@@ -28,6 +28,11 @@ function Navbar() {
         </div>
       </header>
     </div>
+    
+
+    
+
+    
   );
 }
 
