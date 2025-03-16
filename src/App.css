@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.titulo {
+  background: rgb(16, 110, 9);
+  background: linear-gradient(80deg, rgba(16, 110, 9, 1) 15%, rgba(219, 181, 65, 0.8856792717086834) 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5vh;
+}
+

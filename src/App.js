@@ -26,7 +26,7 @@ function App() {
     <Router>
       <Navbar />  {/* Incluye el Navbar en el layout general */}
       <main>
-        <div id="myCarousel" className="carousel slide mb-6" data-bs-ride="carousel">
+        <div id="myCarousel" className="carousel slide mb-6 py-3 mb-4" data-bs-ride="carousel">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" className="" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" className="active" aria-current="true" aria-label="Slide 2"></button>
@@ -76,10 +76,9 @@ function App() {
 
 
         <div class="container marketing">
-          <hr class="featurette-divider"></hr>
           <div class="row featurette">
             <div class="col-md-9">
-              <h2 class="featurette-heading fw-normal lh-1">Reconciliación y
+              <h2 class="featurette-heading fw-normal lh-1" className='titulo'>Reconciliación y
                 Restauración</h2>
               <p class="lead">Creemos firmemente en el poder transformador de la reconciliación y la restauración. Nuestro lema no es solo una frase, sino un llamado a
                 la acción. En un mundo lleno de desafíos y dificultades, estamos dedicados a ayudar a las personas a encontrar paz y sanación en sus vidas.  </p>
@@ -96,7 +95,7 @@ function App() {
 
           <div class="row featurette">
             <div class="col-md-7 order-md-2">
-              <h2 class="featurette-heading fw-normal lh-1">Nuestra Comunidad</h2>
+              <h2 class="featurette-heading fw-normal lh-1" className='titulo'>Nuestra Comunidad</h2>
               <p class="lead">En nuestra iglesia, todos son bienvenidos. Nos esforzamos por ser una comunidad inclusiva y amorosa, donde cada persona se sienta valorada y apoyada. Creemos que todos tienen un lugar en la familia de Dios y estamos aquí para caminar juntos en este viaje de fe.</p>
               <p class="lead">
 
@@ -114,7 +113,7 @@ function App() {
           <div class="container my-5">
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
               <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Pastores</h1>
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis" className='titulo'>Pastores</h1>
                 <p class="card-text mb-auto py-5">En nuestra iglesia creemos que cada persona es
                   valiosa y tiene un propósito especial. Nos encantaría que nos visitaras,
                   sin compromiso, para que puedas experimentar un ambiente de amor, paz y
