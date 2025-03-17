@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.c4732c81.css",
-    "main.js": "/frontend/static/js/main.ac72350c.js",
+    "main.css": "/frontend/static/css/main.8f6b21b6.css",
+    "main.js": "/frontend/static/js/main.f8c6b400.js",
     "static/js/453.8ab44547.chunk.js": "/frontend/static/js/453.8ab44547.chunk.js",
     "static/media/inicio2.png": "/frontend/static/media/inicio2.ede932d7991faea2967b.png",
     "static/media/inicio1.jpg": "/frontend/static/media/inicio1.4084578f0128afc6acb2.jpg",
     "static/media/inicio4.png": "/frontend/static/media/inicio4.9eee92bb9c6e62874703.png",
     "static/media/inicio3.png": "/frontend/static/media/inicio3.9ff3a4b33cdcca64c931.png",
+    "static/media/fondoCalendar.jpg": "/frontend/static/media/fondoCalendar.68ab70aedd5dc1b9c654.jpg",
     "static/media/inicio5.jpg": "/frontend/static/media/inicio5.7d7fdb44d38f3d175d3c.jpg",
     "static/media/pastores.jpg": "/frontend/static/media/pastores.f0d563ff9bf9f2a879c7.jpg",
     "static/media/versiculo1.jpg": "/frontend/static/media/versiculo1.76943a3968990ee07004.jpg",
     "static/media/icono.png": "/frontend/static/media/icono.ead6af470946a2cc0e80.png",
     "index.html": "/frontend/index.html",
-    "main.c4732c81.css.map": "/frontend/static/css/main.c4732c81.css.map",
-    "main.ac72350c.js.map": "/frontend/static/js/main.ac72350c.js.map",
+    "main.8f6b21b6.css.map": "/frontend/static/css/main.8f6b21b6.css.map",
+    "main.f8c6b400.js.map": "/frontend/static/js/main.f8c6b400.js.map",
     "453.8ab44547.chunk.js.map": "/frontend/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4732c81.css",
-    "static/js/main.ac72350c.js"
+    "static/css/main.8f6b21b6.css",
+    "static/js/main.f8c6b400.js"
   ]
 }
