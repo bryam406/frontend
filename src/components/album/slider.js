@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // Im
 import React from 'react';
 
 
-const images = require.context('../../assets/inicio', false, /\.(png|jpe?g|svg)$/);
+const images = require.context('../../assets/album', false, /\.(png|jpe?g|svg)$/);
 
 // Obtenemos todas las imágenes y las convertimos en un objeto con el nombre de cada imagen
 const imageMap = images.keys().reduce((map, imagePath) => {
@@ -32,7 +32,7 @@ function slider() {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active carousel-item">
-                        <img src={imageMap.inicio1} alt="Icono" height={550} style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block' }} />
+                        <img src={imageMap.boda} alt="Icono" height={550} style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block' }} />
                         <div className="container">
                             <div className="carousel-caption" >
                                 <div className='cuadro'>
@@ -44,7 +44,7 @@ function slider() {
                         </div>
                     </div>
                     <div className="carousel-item carousel-item-next carousel-item">
-                        <img src={imageMap.inicio2} alt="Icono" height={550} style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block' }} />
+                        <img src={imageMap.boda2} alt="Icono" height={550} style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block' }} />
                         <div className="container">
                             <div className="carousel-caption">
                                 <div className='cuadro'>
@@ -58,7 +58,7 @@ function slider() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={imageMap.inicio3} alt="Icono" height={550} style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block' }} />
+                        <img src={imageMap.boda3} alt="Icono" height={550} style={{ marginLeft: 'auto', marginRight: 'auto', display: 'block' }} />
                         <div className="container">
                             <div className="carousel-caption ">
                                 <div className='cuadro'>
@@ -80,6 +80,7 @@ function slider() {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
+
 
         </main>
 
