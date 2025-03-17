@@ -1,31 +1,60 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import icon from "../../assets/iconos/icono.png";
 
 function Navbar() {
-  return (
-    <div className="container">
-      <header className="d-flex flex-wrap align-items-center justify-content-between">
-        <div className="col-md-3 mb-2 mb-md-0">
-          <Link to="/" className="d-inline-flex link-body-emphasis text-decoration-none">
-            <img src={icon} alt="Logo" width="80" height="auto" />
-          </Link>
-        </div>
-        <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <li><Link to="/" className="nav-link px-2 link-secondary">Inicio</Link></li>
+  const [isOpen, setIsOpen] = useState(false);
 
-          <li><Link to="/conocenos" className="nav-link px-2">Conócenos</Link></li>
-          <li><Link to="/calendario" className="nav-link px-2">Calendario</Link></li>
-          <li><Link to="/ministerios" className="nav-link px-2">Ministerios</Link></li>
-          <li><Link to="/album" className="nav-link px-2">Álbum</Link></li>
-          <li><Link to="/contacto" className="nav-link px-2">Contacto</Link></li>
-          <li><Link to="/donaciones" className="nav-link px-2">Donaciones</Link></li>
-        </ul>
-        <div className="col-md-3 text-end">
-          <button type="button" className="btn btn-outline-primary me-2">Login</button>
+  return (
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <div className="container">
+        {/* Logo */}
+        <Link to="/" className="navbar-brand">
+          <img src={icon} alt="Logo" width="80" height="auto" />
+        </Link>
+
+        {/* Botón Hamburguesa para móviles */}
+        <button
+          className="navbar-toggler"
+          type="button"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        {/* Menú de navegación */}
+        <div className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}>
+          <ul className="navbar-nav mx-auto text-center">
+            <li className="nav-item">
+              <Link to="/" className="nav-link">Inicio</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/conocenos" className="nav-link">Conócenos</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/calendario" className="nav-link">Calendario</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/ministerios" className="nav-link">Ministerios</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/album" className="nav-link">Álbum</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/contacto" className="nav-link">Contacto</Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/donaciones" className="nav-link">Donaciones</Link>
+            </li>
+          </ul>
+
+          {/* Botón de Login */}
+          <div className="text-center">
+            <button type="button" className="btn btn-outline-primary">Login</button>
+          </div>
         </div>
-      </header>
-    </div>
+      </div>
+    </nav>
   );
 }
 
