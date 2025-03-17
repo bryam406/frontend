@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom"; // <-- HashRouter en lugar de BrowserRouter
 import Navbar from "./components/basic/Navbar";
 import Footer from "./components/basic/footer";
 import "./App.css";
@@ -18,11 +18,11 @@ import Inicio from "./pages/inicio"; // Asegúrate de que Inicio incluya el Slid
 function App() {
   return (
     <Router>
-      <Navbar />
       <main id="root">
+        <Navbar />
+
         <Routes>
           <Route path="/" element={<Inicio />} />
-
           <Route path="/conocenos" element={<Conocenos />} />
           <Route path="/calendario" element={<Calendario />} />
           <Route path="/ministerios" element={<Ministerios />} />
