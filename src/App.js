@@ -17,7 +17,7 @@ import Inicio from "./pages/inicio"; // Asegúrate de que Inicio incluya el Slid
 
 function App() {
   return (
-    <Router basename="/frontend">  {/* Agregar basename */}
+    <Router>
       <main id="root">
         <Navbar />
 
