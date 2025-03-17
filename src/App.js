@@ -17,12 +17,11 @@ import Inicio from "./pages/inicio"; // Asegúrate de que Inicio incluya el Slid
 
 function App() {
   return (
-    <Router>
-      <main id="root">
-        <Navbar />
-
+    <Router basename="/frontend"> {/* Asegúrate de que el basename esté configurado correctamente */}
+      <Navbar />
+      <main>
         <Routes>
-          <Route path="frontend/" element={<Inicio />} />
+          <Route path="/" element={<Inicio />} />
           <Route path="/conocenos" element={<Conocenos />} />
           <Route path="/calendario" element={<Calendario />} />
           <Route path="/ministerios" element={<Ministerios />} />
