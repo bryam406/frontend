@@ -1,25 +1,33 @@
 {
   "files": {
-    "main.css": "/frontend/static/css/main.8f6b21b6.css",
-    "main.js": "/frontend/static/js/main.acd07996.js",
-    "static/js/453.8ab44547.chunk.js": "/frontend/static/js/453.8ab44547.chunk.js",
+    "main.css": "/frontend/static/css/main.ab07da6c.css",
+    "main.js": "/frontend/static/js/main.e3bfc446.js",
+    "static/js/453.80304955.chunk.js": "/frontend/static/js/453.80304955.chunk.js",
     "static/media/inicio2.png": "/frontend/static/media/inicio2.ede932d7991faea2967b.png",
     "static/media/inicio1.jpg": "/frontend/static/media/inicio1.4084578f0128afc6acb2.jpg",
+    "static/media/boda2.jpg": "/frontend/static/media/boda2.eac5eca9366ce09f8c6c.jpg",
     "static/media/inicio4.png": "/frontend/static/media/inicio4.9eee92bb9c6e62874703.png",
     "static/media/inicio3.png": "/frontend/static/media/inicio3.9ff3a4b33cdcca64c931.png",
     "static/media/fondoCalendar.jpg": "/frontend/static/media/fondoCalendar.68ab70aedd5dc1b9c654.jpg",
+    "static/media/boda3.jpg": "/frontend/static/media/boda3.4b9b957d70814447c809.jpg",
     "static/media/inicio5.jpg": "/frontend/static/media/inicio5.7d7fdb44d38f3d175d3c.jpg",
     "static/media/pastores.jpg": "/frontend/static/media/pastores.f0d563ff9bf9f2a879c7.jpg",
     "static/media/versiculo1.jpg": "/frontend/static/media/versiculo1.76943a3968990ee07004.jpg",
     "static/media/icono.png": "/frontend/static/media/icono.ead6af470946a2cc0e80.png",
+    "static/media/boda.jpg": "/frontend/static/media/boda.1b1363f4e0b36fb53ae4.jpg",
+    "static/media/boda1.jpg": "/frontend/static/media/boda1.5f88221a376a9d37fe08.jpg",
+    "static/media/icono2.png": "/frontend/static/media/icono2.9f84dfd61efa5efcac72.png",
     "static/media/donacion.webp": "/frontend/static/media/donacion.7affa0e904a2be71697f.webp",
+    "static/media/escuela.jpeg": "/frontend/static/media/escuela.5365acc9a70da518bc7f.jpeg",
+    "static/media/pajaro.png": "/frontend/static/media/pajaro.4be7e60cce6ec6fe24cd.png",
+    "static/media/boda1.jpeg": "/frontend/static/media/boda1.26dcb5670436a6e73eaf.jpeg",
     "index.html": "/frontend/index.html",
-    "main.8f6b21b6.css.map": "/frontend/static/css/main.8f6b21b6.css.map",
-    "main.acd07996.js.map": "/frontend/static/js/main.acd07996.js.map",
-    "453.8ab44547.chunk.js.map": "/frontend/static/js/453.8ab44547.chunk.js.map"
+    "main.ab07da6c.css.map": "/frontend/static/css/main.ab07da6c.css.map",
+    "main.e3bfc446.js.map": "/frontend/static/js/main.e3bfc446.js.map",
+    "453.80304955.chunk.js.map": "/frontend/static/js/453.80304955.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f6b21b6.css",
-    "static/js/main.acd07996.js"
+    "static/css/main.ab07da6c.css",
+    "static/js/main.e3bfc446.js"
   ]
 }
