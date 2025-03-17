@@ -19,7 +19,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <main>
+      <main id="root">
         <Routes>
           <Route path="/" element={<Inicio />} />
 
