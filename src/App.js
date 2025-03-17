@@ -22,7 +22,7 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/" element={<Inicio />} />
+          <Route path="frontend/" element={<Inicio />} />
           <Route path="/conocenos" element={<Conocenos />} />
           <Route path="/calendario" element={<Calendario />} />
           <Route path="/ministerios" element={<Ministerios />} />
