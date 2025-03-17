@@ -18,7 +18,7 @@ const imageMap = images.keys().reduce((map, imagePath) => {
 
 
 
-function App() {
+function inicio() {
     return (
 
         <main>
@@ -92,4 +92,4 @@ function App() {
     );
 }
 
-export default App;
+export default inicio;
