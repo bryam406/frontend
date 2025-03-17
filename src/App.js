@@ -5,7 +5,6 @@ import Footer from "./components/basic/footer";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import { Navigate } from "react-router-dom";
 
 // Importar las páginas
 import Conocenos from "./pages/conocenos";
@@ -23,7 +22,6 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Inicio />} />
-          <Route path="*" element={<Navigate to="/" />} />
 
           <Route path="/conocenos" element={<Conocenos />} />
           <Route path="/calendario" element={<Calendario />} />
