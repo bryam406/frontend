@@ -19,7 +19,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <main className="container">
+      <main>
         <Routes>
           <Route path="/" element={<Inicio />} />
           <Route path="/conocenos" element={<Conocenos />} />
